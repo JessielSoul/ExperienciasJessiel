@@ -1,0 +1,248 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 1rem; 
+    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-titulo {
+    color: white;
+    margin-right: 10px; 
+    text-align: center; 
+}
+
+.logo-img {
+    max-width: 100px; 
+    height: auto;
+}
+
+
+.section {
+    background-color: rgb(116, 25, 25);
+    color: white;
+    text-align: center;
+    padding: 1rem; 
+}
+
+.section-titulo {
+    margin: 0;
+}
+
+.section-titulo a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.section-titulo a:hover {
+    text-decoration: underline; 
+}
+
+.imagen-responsiva {
+    width: 100%; 
+    height: auto; 
+}
+
+.divisor {
+    background-color: rgb(116, 25, 25); 
+    width: 100%;
+    height: 30px; 
+}
+
+.section-bienvenida {
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+}
+
+.content-container {
+    background-color: white;
+    padding: 2rem; 
+    display: flex; 
+    align-items: center; 
+}
+
+.image-responsiva2 {
+    width: 500px; 
+    height: auto; 
+}
+
+.interes-header
+{
+    text-align: center; 
+    margin-top: 1.5rem; 
+    margin-bottom: 1.5rem;
+}
+
+.titulo-bienvenida {
+    margin: 0; 
+}
+
+.texto-bienvenida {
+    margin: 0; 
+}
+
+.section-intereses {
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+}
+
+.imagen-intereses {
+    width: 330px;
+    height: 450px; 
+    max-width: 100%; 
+}
+
+.texto-intereses {
+    margin: 0.5rem 0; 
+}
+
+.titulo-intereses {
+    text-align: center;
+    margin-top: 0.5rem; 
+    margin-bottom: 0.5rem; 
+}
+
+.descripcion-intereses {
+    margin: 0; 
+}
+
+.formulario {
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+}
+
+.formulario-imagen {
+    width: 445px; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.formulario-container {
+    background-color: white; 
+    padding: 2rem; 
+    display: flex; 
+    align-items: flex-start; 
+}
+
+.formulario-content {
+    flex-grow: 1; 
+    background-color: rgb(34, 110, 190); 
+    padding: 1.5rem; 
+    color: white; 
+}
+
+.formulario-titulo {
+    margin-bottom: 1rem; 
+}
+
+.formulario-descripcion {
+    margin-bottom: 1rem; 
+}
+
+.formulario-ingresar {
+    width: 300px; 
+}
+
+.footer {
+    background-color: rgb(116, 25, 25);
+    color: white; 
+    padding-top: 1.5rem; 
+    padding-bottom: 1.5rem; 
+}
+
+.footer-container {
+    text-align: center; 
+}
+
+.footer-titulo {
+    margin-bottom: 0; 
+    font-size: 1.2rem; 
+}
+
+.footer-titulo a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.footer-titulo a:hover {
+    text-decoration: underline; 
+}
+
+.footer-red {
+    height: 300px; 
+}
+
+.red-icon-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.red-icon {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+
+.red-icon img {
+    width: 100%; 
+    height: auto; 
+}
+
+.footer-derechos {
+    height: 50px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: black; 
+}
+
+.row {
+    display: flex; 
+        justify-content: center; 
+        margin-bottom: 1rem; 
+    }
+
+    .scale-up-ver-center {
+        -webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+
+#carouselExample6 .carousel-control-prev,
+#carouselExample6 .carousel-control-next {
+    background-color: rgba(128, 128, 128, 0.5); 
+    border-radius: 5px; 
+}
+
+.col-xs-12 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .formulario-container {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .formulario-imagen {
+        margin-bottom: 20px; 
+    }
+    
+    .formulario-content {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .image-responsiva2 {
+        margin-bottom: 20px; 
+    }
+}
